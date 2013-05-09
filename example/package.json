@@ -1,0 +1,8 @@
+{
+	"name": "bolt-example",
+	"version": "0.0.1",
+	"dependencies": {
+		"joules": "*",
+		"express": "3.x"
+	}
+}
