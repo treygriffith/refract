@@ -57,7 +57,6 @@ commentForm.on("submit", function() {
 });
 
 window.authorInput = authorInput;
-window.textInput = textInput;
 
 // expose form and list
 commentBox.form = commentForm;
