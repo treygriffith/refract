@@ -15,7 +15,7 @@ commentsModel.bind(commentsView.list, "comments", function(list, comments, new_c
 	if(removed_comments) {
 		list.removeItems(removed_comments, function(a, b) {
 			return a.author === b.author && a.text === b.text;
-		});		
+		});
 	}
 
 });

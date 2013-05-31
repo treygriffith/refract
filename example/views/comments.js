@@ -51,9 +51,16 @@ commentForm.addSubmit("Add");
 
 // Clear form on submission
 commentForm.on("submit", function() {
+	console.log("clearing form");
+	console.log("authorInput", authorInput.value)
+	console.log("textInput", textInput.value)
 	authorInput.value = "";
 	textInput.value = "";
+
 });
+
+window.authorInput = authorInput;
+window.textInput = textInput;
 
 // expose form and list
 commentBox.form = commentForm;
