@@ -1,10 +1,14 @@
+/**
+ * Dependencies
+ */
 var Bolt = require('../../lib');
 
-
+// Create the comments model
 var commentsModel = new Bolt.Model({
 	comments: []
 });
 
+// create an add method that adds a new comment to the collection
 commentsModel.add = function(comment) {
 	var comments = this.comments;
 
@@ -21,6 +25,7 @@ commentsModel.add = function(comment) {
 	});
 };
 
+// Update the model with data from the server
 commentsModel.fetch = function() {
 	var model = this;
 

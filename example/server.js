@@ -5,6 +5,8 @@ var fs = require('fs');
 var app = express();
 
 app.use(express.bodyParser());
+
+// expose everything to the client
 app.use(express.static(__dirname + '/..'));
 joules.hint(__dirname + '/..', function(err) {
 	if(err) {
@@ -12,6 +14,7 @@ joules.hint(__dirname + '/..', function(err) {
 	}
 });
 
+// display our index file for the root
 app.get('/', function(req, res) {
 	fs.readFile(__dirname + '/index.html', 'utf8', function(err, str) {
 
@@ -29,11 +32,13 @@ var comments = [
 	{ author: 'BoltJS', text: 'This is *another* comment' }
 ];
 
+// Display all comments
 app.get('/comments', function(req, res) {
 
 	res.json(comments);
 });
 
+// Create a new comment
 app.post('/comments', function(req, res) {
 
 	if(req.body.author && req.body.text) {
@@ -47,9 +52,10 @@ app.post('/comments', function(req, res) {
 
 		res.json(comment);
 	} else {
+
+		// error in the request
 		res.send(400);
 	}
-
 });
 
 

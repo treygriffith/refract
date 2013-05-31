@@ -1,17 +1,21 @@
+/**
+ * Dependencies
+ */
 var Bolt = require('../../lib');
 
 var commentsModel = require('../models/comments');
+var commentsView = require('../views/comments');
 
 // initialize the collection
 commentsModel.fetch();
 
-var commentsView = require('../views/comments');
-
 // bind changes in the model to the view
 commentsModel.bind(commentsView.list, "comments", function(list, comments, new_comments, removed_comments) {
 
+	// add new Items to the view when new comments are added to the model
 	list.addItems(new_comments);
 
+	// remove comments that are no longer part of the model
 	if(removed_comments) {
 		list.removeItems(removed_comments, function(a, b) {
 			return a.author === b.author && a.text === b.text;
@@ -20,17 +24,19 @@ commentsModel.bind(commentsView.list, "comments", function(list, comments, new_c
 
 });
 
-// handle form submissions
+// create comments when the form is submitted
 commentsView.form.on("submit", function(comment) {
 
+	// notify the user on failure
 	commentsModel.add(comment).fail(function() {
 		alert("Comment failed to save!");
 	});
 });
 
-// set up polling
+// poll the server for new comments
 setInterval(function() {
 	commentsModel.fetch();
 }, 5000);
 
+// expose the view
 exports.view = commentsView;
