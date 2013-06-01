@@ -18,7 +18,9 @@ commentsModel.add = function(comment) {
 
 		// remove the added comment on failure
 		comments.forEach(function(c, i) {
+
 			if(c.author === comment.author && c.text === comment.text) {
+
 				comments.splice(i, 1);
 			}
 		});

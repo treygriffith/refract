@@ -5,16 +5,10 @@ var markdown = require('markdown-js').markdown;
 var Bolt = require('../../lib');
 var View = Bolt.View;
 
-// Create a container view
-var commentBox = new View();
-
-// Add a header to the comments
-commentBox.push(new View.Text.Header("Comments"));
+var view = exports;
 
 // Create a custom list item for comments that displays the comment body as markdown
 var Comment = View.List.Item.extend(function(comment) {
-
-	var item = this;
 
 	var authorView = this.push(new View.Text.Header(comment.author, 2));
 	var textView = this.push(new View(markdown(comment.text)));
@@ -30,7 +24,7 @@ var Comment = View.List.Item.extend(function(comment) {
 	});
 
 	this.listenTo("text", function(text) {
-		textView = item.replaceView(textView, new View(markdown(text)));
+		textView = this.replaceView(textView, new View(markdown(text)));
 	});
 
 	*/
@@ -38,31 +32,29 @@ var Comment = View.List.Item.extend(function(comment) {
 	return this;
 });
 
+// Create a container view
+view.container = new View();
+
+// Add a header to the comments
+view.container.push(new View.Text.Header("Comments"));
 
 // List to hold our comments (with list items as comments)
-var commentList = commentBox.push(new View.List([], Comment));
+view.list = view.container.push(new View.List([], Comment));
 
 // Submission Form
-var commentForm = commentBox.push(new View.Form());
+view.form = view.container.push(new View.Form());
 
-var authorInput = commentForm.addTextInput("author")
+var authorInput = view.form.addTextInput("author")
 					.defineAttr("placeholder", "Your Name");
 
-var textInput = commentForm.addTextInput("text")
+var textInput = view.form.addTextInput("text")
 					.defineAttr("placeholder", "Say something...");
 
-commentForm.addSubmit("Add");
+view.form.addSubmit("Add");
 
 // Clear form on submission
-commentForm.on("submit", function() {
+view.form.on("submit", function() {
 
 	authorInput.value = "";
 	textInput.value = "";
 });
-
-// expose form and list
-commentBox.form = commentForm;
-commentBox.list = commentList;
-
-
-module.exports = commentBox;

@@ -1,8 +1,6 @@
 /**
  * Dependencies
  */
-var Bolt = require('../../lib');
-
 var commentsModel = require('../models/comments');
 var commentsView = require('../views/comments');
 
@@ -17,11 +15,11 @@ commentsModel.listenTo("comments", function(comments, new_comments, removed_comm
 
 	// remove comments that are no longer part of the model
 	if(removed_comments) {
+
 		commentsView.list.removeItems(removed_comments, function(a, b) {
 			return a.author === b.author && a.text === b.text;
 		});
 	}
-
 });
 
 // create comments when the form is submitted
@@ -29,14 +27,16 @@ commentsView.form.on("submit", function(comment) {
 
 	// notify the user on failure
 	commentsModel.add(comment).fail(function() {
+
 		alert("Comment failed to save!");
 	});
 });
 
 // poll the server for new comments
 setInterval(function() {
+
 	commentsModel.fetch();
 }, 5000);
 
-// expose the view
-exports.view = commentsView;
+// expose the container view
+exports.view = commentsView.container;
