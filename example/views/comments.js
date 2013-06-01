@@ -4,7 +4,6 @@
 var markdown = require('markdown-js').markdown;
 var Bolt = require('../../lib');
 var View = Bolt.View;
-var $ = Bolt.View.$;
 
 // Create a container view
 var commentBox = new View();
@@ -26,7 +25,7 @@ var Comment = View.List.Item.extend(function(comment) {
 
 	/* Optional Dynamism in the comments (would only be used for editing comments)
 
-	this.bind(authorView, "author", function(authorView, author) {
+	this.listenTo("author", function(author) {
 		authorView.text = author;
 	});
 
