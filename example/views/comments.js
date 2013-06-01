@@ -5,10 +5,18 @@ var markdown = require('markdown-js').markdown;
 var Bolt = require('../../lib');
 var View = Bolt.View;
 
+// alias exports
 var view = exports;
 
-// Create a custom list item for comments that displays the comment body as markdown
-var Comment = View.List.Item.extend(function(comment) {
+// Create a container view
+view.container = new View();
+
+// Add a header to the comments
+view.container.push(new View.Text.Header("Comments"));
+
+// List to hold our comments
+// List item is customized for comments that displays the comment body as markdown
+view.list = view.container.push(new View.List([], View.List.Item.extend(function(comment) {
 
 	var authorView = this.push(new View.Text.Header(comment.author, 2));
 	var textView = this.push(new View(markdown(comment.text)));
@@ -30,16 +38,7 @@ var Comment = View.List.Item.extend(function(comment) {
 	*/
 
 	return this;
-});
-
-// Create a container view
-view.container = new View();
-
-// Add a header to the comments
-view.container.push(new View.Text.Header("Comments"));
-
-// List to hold our comments (with list items as comments)
-view.list = view.container.push(new View.List([], Comment));
+})));
 
 // Submission Form
 view.form = view.container.push(new View.Form());

@@ -197,33 +197,6 @@ if (!Object.create) {
 	(function(modules) {
 	var dependencies = {};
 
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./http'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/http.js'](cache, dependencies);
-	modules['./http'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/http.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
 	
 
 	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
@@ -410,6 +383,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -423,15 +405,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -590,6 +563,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -603,15 +585,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -770,6 +743,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -783,15 +765,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -950,6 +923,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -963,15 +945,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -1130,6 +1103,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -1143,15 +1125,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -1287,6 +1260,60 @@ if (!Object.create) {
 
 	modules['./views/List'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/views/List.js'](cache, dependencies);
 	modules['./views/List'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/views/List.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
+	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
+
+})(dependencies);
+
+
+	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
+	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
+
+})(dependencies);
+
+
+	modules['./http'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/http.js'](cache, dependencies);
+	modules['./http'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/http.js';
+
+})(dependencies);
+
+
+	modules['./Collection'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/Collection.js'](cache, dependencies);
+	modules['./Collection'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/Collection.js';
+
+})(dependencies);
+
+
+	modules['./REST'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/index.js'](cache, dependencies);
+	modules['./REST'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/index.js';
+
+})(dependencies);
+
+
+	modules['./mixins'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/index.js'](cache, dependencies);
+	modules['./mixins'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/index.js';
 
 })(dependencies);
 
@@ -1307,10 +1334,22 @@ if (!Object.create) {
 	(function(modules) {
 	var dependencies = {};
 
+	(function(modules) {
+	var dependencies = {};
+
 	
 
 	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
 	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 (function(modules) {
@@ -1329,15 +1368,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -1362,33 +1392,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./http'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/http.js'](cache, dependencies);
-	modules['./http'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/http.js';
 
 })(dependencies);
 (function(modules) {
@@ -1583,6 +1586,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -1596,15 +1608,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -1763,6 +1766,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -1776,15 +1788,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -1943,6 +1946,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -1956,15 +1968,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -2123,6 +2126,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -2136,15 +2148,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -2303,6 +2306,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -2316,15 +2328,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -2462,10 +2465,70 @@ if (!Object.create) {
 	modules['./views/List'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/views/List.js';
 
 })(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
+	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
+
+})(dependencies);
+
+
+	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
+	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
+
+})(dependencies);
+
+
+	modules['./http'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/http.js'](cache, dependencies);
+	modules['./http'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/http.js';
+
+})(dependencies);
+
+
+	modules['./Collection'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/Collection.js'](cache, dependencies);
+	modules['./Collection'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/Collection.js';
+
+})(dependencies);
+
+
+	modules['./REST'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/index.js'](cache, dependencies);
+	modules['./REST'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/index.js';
+
+})(dependencies);
+
+
+	modules['./mixins'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/index.js'](cache, dependencies);
+	modules['./mixins'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/index.js';
+
+})(dependencies);
 
 
 	modules['../../lib'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/index.js'](cache, dependencies);
 	modules['../../lib'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/index.js';
+
+})(dependencies);
+
+
+	modules['../models/comments'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/example/models/comments.js'](cache, dependencies);
+	modules['../models/comments'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/example/models/comments.js';
 
 })(dependencies);
 (function(modules) {
@@ -2498,6 +2561,120 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+
+
+	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
+	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
+
+})(dependencies);
+
+
+	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
+	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+
+
+	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
+	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
+	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+
+
+	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
+	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
+
+})(dependencies);
+
+
+	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
+	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
+	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -2546,7 +2723,25 @@ if (!Object.create) {
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
 
 })(dependencies);
+
+
+	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
+	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
+
+})(dependencies);
 (function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
 	var dependencies = {};
 
 	(function(modules) {
@@ -2569,8 +2764,20 @@ if (!Object.create) {
 })(dependencies);
 
 
-	modules['./http'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/http.js'](cache, dependencies);
-	modules['./http'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/http.js';
+	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
+	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
+
+})(dependencies);
+
+
+	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
+	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
+
+})(dependencies);
+
+
+	modules['./View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
+	modules['./View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
 
 })(dependencies);
 (function(modules) {
@@ -2594,6 +2801,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -2607,15 +2823,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -2774,6 +2981,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -2787,15 +3003,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -2954,6 +3161,15 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -2967,15 +3183,6 @@ if (!Object.create) {
 
 	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
 	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
 
 })(dependencies);
 
@@ -3134,6 +3341,54 @@ if (!Object.create) {
 (function(modules) {
 	var dependencies = {};
 
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+
+
+	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
+	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
+
+})(dependencies);
+
+
+	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
+	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
+	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
 	(function(modules) {
 	var dependencies = {};
 
@@ -3156,6 +3411,138 @@ if (!Object.create) {
 
 	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
 	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+
+
+	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
+	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+
+
+	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
+	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
+
+})(dependencies);
+
+
+	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
+	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
+	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
+
+})(dependencies);
+
+
+	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
+	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
+
+})(dependencies);
+
+
+	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
+	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
+
+})(dependencies);
+
+
+	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
+	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
+
+})(dependencies);
+
+
+	modules['../View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
+	modules['../View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
+
+})(dependencies);
+
+
+	modules['./views/List'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/views/List.js'](cache, dependencies);
+	modules['./views/List'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/views/List.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
+	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+(function(modules) {
+	var dependencies = {};
+
+	(function(modules) {
+	var dependencies = {};
+
+	
+
+	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
+	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
+
+})(dependencies);
+
+
+	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
+	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
 
 })(dependencies);
 
@@ -3305,132 +3692,6 @@ if (!Object.create) {
 	(function(modules) {
 	var dependencies = {};
 
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-
-
-	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
-	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
 	(function(modules) {
 	var dependencies = {};
 
@@ -3451,197 +3712,26 @@ if (!Object.create) {
 })(dependencies);
 
 
-	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
-	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
+	modules['./http'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/http.js'](cache, dependencies);
+	modules['./http'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/http.js';
 
 })(dependencies);
 
 
-	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
-	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
+	modules['./Collection'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/Collection.js'](cache, dependencies);
+	modules['./Collection'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/Collection.js';
 
 })(dependencies);
 
 
-	modules['../View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
-	modules['../View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
+	modules['./REST'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/index.js'](cache, dependencies);
+	modules['./REST'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/index.js';
 
 })(dependencies);
 
 
-	modules['./views/List'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/views/List.js'](cache, dependencies);
-	modules['./views/List'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/views/List.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-
-
-	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
-	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
-	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
-
-})(dependencies);
-
-
-	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
-	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
-
-})(dependencies);
-
-
-	modules['./View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
-	modules['./View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
+	modules['./mixins'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/index.js'](cache, dependencies);
+	modules['./mixins'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/index.js';
 
 })(dependencies);
 
@@ -3654,1185 +3744,6 @@ if (!Object.create) {
 
 	modules['../views/comments'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/example/views/comments.js'](cache, dependencies);
 	modules['../views/comments'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/example/views/comments.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./http'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/http.js'](cache, dependencies);
-	modules['./http'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/http.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-
-
-	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
-	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
-	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
-
-})(dependencies);
-
-
-	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
-	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
-
-})(dependencies);
-
-
-	modules['../View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
-	modules['../View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
-
-})(dependencies);
-
-
-	modules['./views/Table'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/views/Table.js'](cache, dependencies);
-	modules['./views/Table'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/views/Table.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-
-
-	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
-	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
-	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
-
-})(dependencies);
-
-
-	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
-	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
-
-})(dependencies);
-
-
-	modules['../View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
-	modules['../View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
-
-})(dependencies);
-
-
-	modules['./views/Form'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/views/Form.js'](cache, dependencies);
-	modules['./views/Form'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/views/Form.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-
-
-	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
-	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
-	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
-
-})(dependencies);
-
-
-	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
-	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
-
-})(dependencies);
-
-
-	modules['../View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
-	modules['../View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
-
-})(dependencies);
-
-
-	modules['./views/Text'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/views/Text.js'](cache, dependencies);
-	modules['./views/Text'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/views/Text.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-
-
-	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
-	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
-	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
-
-})(dependencies);
-
-
-	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
-	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
-
-})(dependencies);
-
-
-	modules['../View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
-	modules['../View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
-
-})(dependencies);
-
-
-	modules['./views/Link'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/views/Link.js'](cache, dependencies);
-	modules['./views/Link'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/views/Link.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-
-
-	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
-	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
-	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
-
-})(dependencies);
-
-
-	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
-	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
-
-})(dependencies);
-
-
-	modules['../View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
-	modules['../View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
-
-})(dependencies);
-
-
-	modules['./views/List'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/views/List.js'](cache, dependencies);
-	modules['./views/List'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/views/List.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./Listener'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js'](cache, dependencies);
-	modules['./Listener'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Listener.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Model'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js'](cache, dependencies);
-	modules['./Model'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Model.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-
-
-	modules['./Controller'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js'](cache, dependencies);
-	modules['./Controller'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Controller.js';
-
-})(dependencies);
-
-
-	modules['./Views.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js'](cache, dependencies);
-	modules['./Views.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./utils'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js'](cache, dependencies);
-	modules['./utils'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/utils.js';
-
-})(dependencies);
-(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	(function(modules) {
-	var dependencies = {};
-
-	
-
-	modules['./jquery-1.9.1.js'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js'](cache, dependencies);
-	modules['./jquery-1.9.1.js'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/jquery-1.9.1.js';
-
-})(dependencies);
-
-
-	modules['jquery-joules'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js'](cache, dependencies);
-	modules['jquery-joules'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/node_modules/jquery-joules/index.js';
-
-})(dependencies);
-
-
-	modules['./jquery'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js'](cache, dependencies);
-	modules['./jquery'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js';
-
-})(dependencies);
-
-
-	modules['./DOMBinding'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js'](cache, dependencies);
-	modules['./DOMBinding'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/index.js';
-
-})(dependencies);
-
-
-	modules['./View'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/View.js'](cache, dependencies);
-	modules['./View'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/View.js';
-
-})(dependencies);
-
-
-	modules['../../lib'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/lib/index.js'](cache, dependencies);
-	modules['../../lib'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/lib/index.js';
-
-})(dependencies);
-
-
-	modules['../models/comments'] = dependency_cache['/Users/treygriffith/Dropbox/Node/bolt/example/models/comments.js'](cache, dependencies);
-	modules['../models/comments'].resolved = '/Users/treygriffith/Dropbox/Node/bolt/example/models/comments.js';
 
 })(dependencies);
 
@@ -4901,12 +3812,22 @@ dependencies['/Users/treygriffith/Dropbox/Node/bolt/example/app.js'].resolved = 
 		NewClass.extend = exports._extend();
 	}
 
+	if(Klass.mixin) {
+		NewClass.mixin = exports._mixin();
+	}
+
 	return NewClass;
 };
 
 exports._extend = function() {
 	return function() {
 		return exports.extend.apply(this, [].slice.call(arguments) );
+	};
+};
+
+exports._mixin = function() {
+	return function(module) {
+		return exports.extend.apply(this, module);
 	};
 };
 
@@ -4994,6 +3915,20 @@ function Controller(model) {
 
 // extend
 Controller.extend = utils._extend();
+
+// Allow mixins
+Controller.prototype.mixin = function(module) {
+
+	for(var propName in module) {
+
+		if(module.hasOwnProperty(propName)) {
+
+			this[propName] = module[propName];
+		}
+	}
+
+	return this;
+}
 
 // add an event listener to this controller
 Controller.prototype.on = function(evt, fn) {
@@ -5631,6 +4566,142 @@ Model.prototype.destroy = Model.prototype.__destroy;
 module.exports = Model;
 
 
+
+				})(module, require, module.exports);
+
+				module.loaded = true;
+				return module;
+
+			})(cache[id]);
+		}
+
+		var ret = cache[id];
+
+		// clone this object and make the parent the currently calling module
+		if(ret.parent !== parent) {
+			ret = Object.create(ret);
+			ret.parent = parent;
+		}
+
+		return ret;
+	};
+},'/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js' : function(cache, dependencies) {
+	return function(parent) {
+
+		var id = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
+
+		// Set up Module specific 'globals'
+		var __filename = id, __dirname = __filename.split('/');
+		__dirname.pop();
+		__dirname = __dirname.join('/');
+
+		if(!cache[id]) {
+
+			// instantiate the module before executing it's code.
+			// this prevents infinite loops on circular dependencies
+			cache[id] = new Module(id, parent, dependencies);
+
+			var require = function() {
+				return cache[id].require.apply(cache[id], Array.prototype.slice.call(arguments));
+			};
+
+			require.cache = cache;
+
+			require.resolve = function() {
+				return cache[id].require.resolve.apply(cache[id].require,Array.prototype.slice.call(arguments));
+			};
+
+			cache[id] = (function(module) {
+
+				// unset variables to prevent accidental collisions
+				var dependencies = undefined, cache = undefined, parent = undefined, id = undefined, Module = undefined;
+
+
+				(function(module, require, exports) {
+
+					var Model = require('./Model');
+var Controller = require('./Controller');
+
+// Views is a nearly-array object for containing the views of a View
+var Views = Model.extend(function(views) {
+
+	this._views = [];
+
+	// Our listener for changes in the array
+	this._handler = function(_views) {
+
+		var self = this;
+
+		// update length
+		this.length = _views.length;
+
+		// apply all of our events to the changed/added views
+		for(var evt in this._events) {
+			if(this._events.hasOwnProperty(evt)) {
+
+				_views.forEach(function(view) {
+
+					// remove old listeners
+					view.off(evt, self._events[evt]);
+
+					// add all of our listeners
+					view.on(evt, self._events[evt]);
+				});
+
+			}
+		}
+	}
+
+	this.shallowListenTo('_views', this._handler);
+
+	// save a reference to the original way of attaching listeners
+	this._on = Controller.prototype.on;
+
+	this.length = this._views.length;
+
+	// set the initial views
+	this._views = views || [];
+
+	return this;
+});
+
+// Copy array methods
+Object.getOwnPropertyNames(Array.prototype).forEach(function(methodName) {
+
+	if(typeof Array.prototype[methodName] === 'function') {
+
+		Views.prototype[methodName] = function() {
+
+			var ret = Array.prototype[methodName].apply(this._views, [].slice.call(arguments));
+
+			// call our handler if it modified the array
+			if(~["push", "pop", "shift", "unshift", "splice"].indexOf(methodName)) {
+				this._handler.call(this, this._views);
+			}
+
+			return ret;
+		};
+	}
+});
+
+Views.prototype.on = function(evt, fn) {
+
+	// call the original method
+	this._on.apply(this, [].slice.call(arguments));
+
+	// trigger the setter
+	this._views = this._views;
+
+	return this;
+};
+
+Views.prototype.empty = function() {
+	this._views = [];
+
+	return this;
+};
+
+module.exports = Views;
 
 				})(module, require, module.exports);
 
@@ -15355,200 +14426,6 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 		return ret;
 	};
-},'/Users/treygriffith/Dropbox/Node/bolt/lib/http.js' : function(cache, dependencies) {
-	return function(parent) {
-
-		var id = '/Users/treygriffith/Dropbox/Node/bolt/lib/http.js';
-
-		// Set up Module specific 'globals'
-		var __filename = id, __dirname = __filename.split('/');
-		__dirname.pop();
-		__dirname = __dirname.join('/');
-
-		if(!cache[id]) {
-
-			// instantiate the module before executing it's code.
-			// this prevents infinite loops on circular dependencies
-			cache[id] = new Module(id, parent, dependencies);
-
-			var require = function() {
-				return cache[id].require.apply(cache[id], Array.prototype.slice.call(arguments));
-			};
-
-			require.cache = cache;
-
-			require.resolve = function() {
-				return cache[id].require.resolve.apply(cache[id].require,Array.prototype.slice.call(arguments));
-			};
-
-			cache[id] = (function(module) {
-
-				// unset variables to prevent accidental collisions
-				var dependencies = undefined, cache = undefined, parent = undefined, id = undefined, Module = undefined;
-
-
-				(function(module, require, exports) {
-
-					var $ = require('jquery-joules');
-
-exports.get = $.get;
-exports.post = $.post;
-exports.send = $.ajax;
-
-				})(module, require, module.exports);
-
-				module.loaded = true;
-				return module;
-
-			})(cache[id]);
-		}
-
-		var ret = cache[id];
-
-		// clone this object and make the parent the currently calling module
-		if(ret.parent !== parent) {
-			ret = Object.create(ret);
-			ret.parent = parent;
-		}
-
-		return ret;
-	};
-},'/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js' : function(cache, dependencies) {
-	return function(parent) {
-
-		var id = '/Users/treygriffith/Dropbox/Node/bolt/lib/Views.js';
-
-		// Set up Module specific 'globals'
-		var __filename = id, __dirname = __filename.split('/');
-		__dirname.pop();
-		__dirname = __dirname.join('/');
-
-		if(!cache[id]) {
-
-			// instantiate the module before executing it's code.
-			// this prevents infinite loops on circular dependencies
-			cache[id] = new Module(id, parent, dependencies);
-
-			var require = function() {
-				return cache[id].require.apply(cache[id], Array.prototype.slice.call(arguments));
-			};
-
-			require.cache = cache;
-
-			require.resolve = function() {
-				return cache[id].require.resolve.apply(cache[id].require,Array.prototype.slice.call(arguments));
-			};
-
-			cache[id] = (function(module) {
-
-				// unset variables to prevent accidental collisions
-				var dependencies = undefined, cache = undefined, parent = undefined, id = undefined, Module = undefined;
-
-
-				(function(module, require, exports) {
-
-					var Model = require('./Model');
-var Controller = require('./Controller');
-
-// Views is a nearly-array object for containing the views of a View
-var Views = Model.extend(function(views) {
-
-	this._views = [];
-
-	// Our listener for changes in the array
-	this._handler = function(_views) {
-
-		var self = this;
-
-		// update length
-		this.length = _views.length;
-
-		// apply all of our events to the changed/added views
-		for(var evt in this._events) {
-			if(this._events.hasOwnProperty(evt)) {
-
-				_views.forEach(function(view) {
-
-					// remove old listeners
-					view.off(evt, self._events[evt]);
-
-					// add all of our listeners
-					view.on(evt, self._events[evt]);
-				});
-
-			}
-		}
-	}
-
-	this.shallowListenTo('_views', this._handler);
-
-	// save a reference to the original way of attaching listeners
-	this._on = Controller.prototype.on;
-
-	this.length = this._views.length;
-
-	// set the initial views
-	this._views = views || [];
-
-	return this;
-});
-
-// Copy array methods
-Object.getOwnPropertyNames(Array.prototype).forEach(function(methodName) {
-
-	if(typeof Array.prototype[methodName] === 'function') {
-
-		Views.prototype[methodName] = function() {
-
-			var ret = Array.prototype[methodName].apply(this._views, [].slice.call(arguments));
-
-			// call our handler if it modified the array
-			if(~["push", "pop", "shift", "unshift", "splice"].indexOf(methodName)) {
-				this._handler.call(this, this._views);
-			}
-
-			return ret;
-		};
-	}
-});
-
-Views.prototype.on = function(evt, fn) {
-
-	// call the original method
-	this._on.apply(this, [].slice.call(arguments));
-
-	// trigger the setter
-	this._views = this._views;
-
-	return this;
-};
-
-Views.prototype.empty = function() {
-	this._views = [];
-
-	return this;
-};
-
-module.exports = Views;
-
-				})(module, require, module.exports);
-
-				module.loaded = true;
-				return module;
-
-			})(cache[id]);
-		}
-
-		var ret = cache[id];
-
-		// clone this object and make the parent the currently calling module
-		if(ret.parent !== parent) {
-			ret = Object.create(ret);
-			ret.parent = parent;
-		}
-
-		return ret;
-	};
 },'/Users/treygriffith/Dropbox/Node/bolt/lib/DOMBinding/jquery.js' : function(cache, dependencies) {
 	return function(parent) {
 
@@ -16025,14 +14902,45 @@ View.prototype.addViewAt = function(view, position) {
 	return view;
 };
 
+View.prototype.appendViews = function(views) {
+
+	var self = this;
+
+	return views.map(function(view) {
+		self.appendView(view);
+	});
+};
+
 View.prototype.appendView = function(view) {
+
+	if(Array.isArray(view)) {
+
+		return this.appendViews(view);
+	}
+
 	return this.addViewAt(view, this.views.length);
 };
 View.prototype.push = View.prototype.appendView;
 
-View.prototype.prependView = function(data) {
-	return this.addViewAt(data, 0);
+View.prototype.prependViews = function(views) {
+
+	var self = this;
+
+	return views.map(function(view) {
+		self.prependView(view);
+	});
 };
+
+View.prototype.prependView = function(view) {
+
+	if(Array.isArray(view)) {
+
+		return this.prependViews(view);
+	}
+
+	return this.addViewAt(view, 0);
+};
+
 View.prototype.unshift = View.prototype.prependView;
 
 View.prototype.replaceViewAt = function(view, position) {
@@ -16921,6 +15829,272 @@ module.exports = List;
 
 		return ret;
 	};
+},'/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/http.js' : function(cache, dependencies) {
+	return function(parent) {
+
+		var id = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/http.js';
+
+		// Set up Module specific 'globals'
+		var __filename = id, __dirname = __filename.split('/');
+		__dirname.pop();
+		__dirname = __dirname.join('/');
+
+		if(!cache[id]) {
+
+			// instantiate the module before executing it's code.
+			// this prevents infinite loops on circular dependencies
+			cache[id] = new Module(id, parent, dependencies);
+
+			var require = function() {
+				return cache[id].require.apply(cache[id], Array.prototype.slice.call(arguments));
+			};
+
+			require.cache = cache;
+
+			require.resolve = function() {
+				return cache[id].require.resolve.apply(cache[id].require,Array.prototype.slice.call(arguments));
+			};
+
+			cache[id] = (function(module) {
+
+				// unset variables to prevent accidental collisions
+				var dependencies = undefined, cache = undefined, parent = undefined, id = undefined, Module = undefined;
+
+
+				(function(module, require, exports) {
+
+					var $ = require('jquery-joules');
+
+exports.get = $.get;
+exports.post = $.post;
+exports.send = $.ajax;
+
+				})(module, require, module.exports);
+
+				module.loaded = true;
+				return module;
+
+			})(cache[id]);
+		}
+
+		var ret = cache[id];
+
+		// clone this object and make the parent the currently calling module
+		if(ret.parent !== parent) {
+			ret = Object.create(ret);
+			ret.parent = parent;
+		}
+
+		return ret;
+	};
+},'/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/Collection.js' : function(cache, dependencies) {
+	return function(parent) {
+
+		var id = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/Collection.js';
+
+		// Set up Module specific 'globals'
+		var __filename = id, __dirname = __filename.split('/');
+		__dirname.pop();
+		__dirname = __dirname.join('/');
+
+		if(!cache[id]) {
+
+			// instantiate the module before executing it's code.
+			// this prevents infinite loops on circular dependencies
+			cache[id] = new Module(id, parent, dependencies);
+
+			var require = function() {
+				return cache[id].require.apply(cache[id], Array.prototype.slice.call(arguments));
+			};
+
+			require.cache = cache;
+
+			require.resolve = function() {
+				return cache[id].require.resolve.apply(cache[id].require,Array.prototype.slice.call(arguments));
+			};
+
+			cache[id] = (function(module) {
+
+				// unset variables to prevent accidental collisions
+				var dependencies = undefined, cache = undefined, parent = undefined, id = undefined, Module = undefined;
+
+
+				(function(module, require, exports) {
+
+					var http = require('./http');
+
+module.exports = function collection(name, url) {
+
+	var module = {};
+
+	module.endpoint = url || '/'+name;
+
+	module[name] = module[name] || [];
+
+	module.compare = function(a, b) {
+		return a === b;
+	};
+
+	module.add = function(item) {
+		var model = this;
+		var items = this[name];
+
+		// add to our collection
+		items.push(item);
+
+		// return the xhr promise
+		return http.post(this.endpoint, item).fail(function() {
+
+			// remove the added item on failure
+			items.forEach(function(_item, i) {
+
+
+				if(model.compare(_item, item)) {
+
+					items.splice(i, 1);
+				}
+			});
+		});
+	};
+
+	module.fetch = function() {
+		var model = this;
+
+		// return the xhr promise
+		return http.get(this.endpoint).done(function(items) {
+			model[name] = items;
+		});
+	};
+
+	return module;
+};
+
+				})(module, require, module.exports);
+
+				module.loaded = true;
+				return module;
+
+			})(cache[id]);
+		}
+
+		var ret = cache[id];
+
+		// clone this object and make the parent the currently calling module
+		if(ret.parent !== parent) {
+			ret = Object.create(ret);
+			ret.parent = parent;
+		}
+
+		return ret;
+	};
+},'/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/index.js' : function(cache, dependencies) {
+	return function(parent) {
+
+		var id = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/REST/index.js';
+
+		// Set up Module specific 'globals'
+		var __filename = id, __dirname = __filename.split('/');
+		__dirname.pop();
+		__dirname = __dirname.join('/');
+
+		if(!cache[id]) {
+
+			// instantiate the module before executing it's code.
+			// this prevents infinite loops on circular dependencies
+			cache[id] = new Module(id, parent, dependencies);
+
+			var require = function() {
+				return cache[id].require.apply(cache[id], Array.prototype.slice.call(arguments));
+			};
+
+			require.cache = cache;
+
+			require.resolve = function() {
+				return cache[id].require.resolve.apply(cache[id].require,Array.prototype.slice.call(arguments));
+			};
+
+			cache[id] = (function(module) {
+
+				// unset variables to prevent accidental collisions
+				var dependencies = undefined, cache = undefined, parent = undefined, id = undefined, Module = undefined;
+
+
+				(function(module, require, exports) {
+
+					exports.Collection = require('./Collection');
+
+				})(module, require, module.exports);
+
+				module.loaded = true;
+				return module;
+
+			})(cache[id]);
+		}
+
+		var ret = cache[id];
+
+		// clone this object and make the parent the currently calling module
+		if(ret.parent !== parent) {
+			ret = Object.create(ret);
+			ret.parent = parent;
+		}
+
+		return ret;
+	};
+},'/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/index.js' : function(cache, dependencies) {
+	return function(parent) {
+
+		var id = '/Users/treygriffith/Dropbox/Node/bolt/lib/mixins/index.js';
+
+		// Set up Module specific 'globals'
+		var __filename = id, __dirname = __filename.split('/');
+		__dirname.pop();
+		__dirname = __dirname.join('/');
+
+		if(!cache[id]) {
+
+			// instantiate the module before executing it's code.
+			// this prevents infinite loops on circular dependencies
+			cache[id] = new Module(id, parent, dependencies);
+
+			var require = function() {
+				return cache[id].require.apply(cache[id], Array.prototype.slice.call(arguments));
+			};
+
+			require.cache = cache;
+
+			require.resolve = function() {
+				return cache[id].require.resolve.apply(cache[id].require,Array.prototype.slice.call(arguments));
+			};
+
+			cache[id] = (function(module) {
+
+				// unset variables to prevent accidental collisions
+				var dependencies = undefined, cache = undefined, parent = undefined, id = undefined, Module = undefined;
+
+
+				(function(module, require, exports) {
+
+					exports.REST = require('./REST');
+
+				})(module, require, module.exports);
+
+				module.loaded = true;
+				return module;
+
+			})(cache[id]);
+		}
+
+		var ret = cache[id];
+
+		// clone this object and make the parent the currently calling module
+		if(ret.parent !== parent) {
+			ret = Object.create(ret);
+			ret.parent = parent;
+		}
+
+		return ret;
+	};
 },'/Users/treygriffith/Dropbox/Node/bolt/lib/index.js' : function(cache, dependencies) {
 	return function(parent) {
 
@@ -16965,8 +16139,6 @@ View.List = require('./views/List');
 
 exports.View = View;
 
-exports.http = require('./http');
-
 
 var Model = require('./Model');
 
@@ -16976,6 +16148,79 @@ exports.Model = Model;
 var Controller = require('./Controller');
 
 exports.Controller = Controller;
+
+exports.mixins = require('./mixins');
+
+				})(module, require, module.exports);
+
+				module.loaded = true;
+				return module;
+
+			})(cache[id]);
+		}
+
+		var ret = cache[id];
+
+		// clone this object and make the parent the currently calling module
+		if(ret.parent !== parent) {
+			ret = Object.create(ret);
+			ret.parent = parent;
+		}
+
+		return ret;
+	};
+},'/Users/treygriffith/Dropbox/Node/bolt/example/models/comments.js' : function(cache, dependencies) {
+	return function(parent) {
+
+		var id = '/Users/treygriffith/Dropbox/Node/bolt/example/models/comments.js';
+
+		// Set up Module specific 'globals'
+		var __filename = id, __dirname = __filename.split('/');
+		__dirname.pop();
+		__dirname = __dirname.join('/');
+
+		if(!cache[id]) {
+
+			// instantiate the module before executing it's code.
+			// this prevents infinite loops on circular dependencies
+			cache[id] = new Module(id, parent, dependencies);
+
+			var require = function() {
+				return cache[id].require.apply(cache[id], Array.prototype.slice.call(arguments));
+			};
+
+			require.cache = cache;
+
+			require.resolve = function() {
+				return cache[id].require.resolve.apply(cache[id].require,Array.prototype.slice.call(arguments));
+			};
+
+			cache[id] = (function(module) {
+
+				// unset variables to prevent accidental collisions
+				var dependencies = undefined, cache = undefined, parent = undefined, id = undefined, Module = undefined;
+
+
+				(function(module, require, exports) {
+
+					/**
+ * Dependencies
+ */
+var Bolt = require('../../lib');
+var mixins = Bolt.mixins;
+
+// Create the comments model
+var commentsModel = new Bolt.Model({
+	comments: []
+});
+
+commentsModel.mixin(mixins.REST.Collection('comments'));
+
+commentsModel.compare = function(a, b) {
+	return a.author === b.author && a.text === b.text;
+};
+
+module.exports = commentsModel;
 
 				})(module, require, module.exports);
 
@@ -18373,16 +17618,18 @@ var markdown = require('markdown-js').markdown;
 var Bolt = require('../../lib');
 var View = Bolt.View;
 
+// alias exports
+var view = exports;
+
 // Create a container view
-var commentBox = new View();
+view.container = new View();
 
 // Add a header to the comments
-commentBox.push(new View.Text.Header("Comments"));
+view.container.push(new View.Text.Header("Comments"));
 
-// Create a custom list item for comments that displays the comment body as markdown
-var Comment = View.List.Item.extend(function(comment) {
-
-	var item = this;
+// List to hold our comments
+// List item is customized for comments that displays the comment body as markdown
+view.list = view.container.push(new View.List([], View.List.Item.extend(function(comment) {
 
 	var authorView = this.push(new View.Text.Header(comment.author, 2));
 	var textView = this.push(new View(markdown(comment.text)));
@@ -18398,133 +17645,32 @@ var Comment = View.List.Item.extend(function(comment) {
 	});
 
 	this.listenTo("text", function(text) {
-		textView = item.replaceView(textView, new View(markdown(text)));
+		textView = this.replaceView(textView, new View(markdown(text)));
 	});
 
 	*/
 
 	return this;
-});
-
-
-// List to hold our comments (with list items as comments)
-var commentList = commentBox.push(new View.List([], Comment));
+})));
 
 // Submission Form
-var commentForm = commentBox.push(new View.Form());
+view.form = view.container.push(new View.Form());
 
-var authorInput = commentForm.addTextInput("author")
+var authorInput = view.form.addTextInput("author")
 					.defineAttr("placeholder", "Your Name");
 
-var textInput = commentForm.addTextInput("text")
+var textInput = view.form.addTextInput("text")
 					.defineAttr("placeholder", "Say something...");
 
-commentForm.addSubmit("Add");
+view.form.addSubmit("Add");
 
 // Clear form on submission
-commentForm.on("submit", function() {
+view.form.on("submit", function() {
 
 	authorInput.value = "";
 	textInput.value = "";
 });
 
-// expose form and list
-commentBox.form = commentForm;
-commentBox.list = commentList;
-
-
-module.exports = commentBox;
-
-				})(module, require, module.exports);
-
-				module.loaded = true;
-				return module;
-
-			})(cache[id]);
-		}
-
-		var ret = cache[id];
-
-		// clone this object and make the parent the currently calling module
-		if(ret.parent !== parent) {
-			ret = Object.create(ret);
-			ret.parent = parent;
-		}
-
-		return ret;
-	};
-},'/Users/treygriffith/Dropbox/Node/bolt/example/models/comments.js' : function(cache, dependencies) {
-	return function(parent) {
-
-		var id = '/Users/treygriffith/Dropbox/Node/bolt/example/models/comments.js';
-
-		// Set up Module specific 'globals'
-		var __filename = id, __dirname = __filename.split('/');
-		__dirname.pop();
-		__dirname = __dirname.join('/');
-
-		if(!cache[id]) {
-
-			// instantiate the module before executing it's code.
-			// this prevents infinite loops on circular dependencies
-			cache[id] = new Module(id, parent, dependencies);
-
-			var require = function() {
-				return cache[id].require.apply(cache[id], Array.prototype.slice.call(arguments));
-			};
-
-			require.cache = cache;
-
-			require.resolve = function() {
-				return cache[id].require.resolve.apply(cache[id].require,Array.prototype.slice.call(arguments));
-			};
-
-			cache[id] = (function(module) {
-
-				// unset variables to prevent accidental collisions
-				var dependencies = undefined, cache = undefined, parent = undefined, id = undefined, Module = undefined;
-
-
-				(function(module, require, exports) {
-
-					/**
- * Dependencies
- */
-var Bolt = require('../../lib');
-
-// Create the comments model
-var commentsModel = new Bolt.Model({
-	comments: []
-});
-
-// create an add method that adds a new comment to the collection
-commentsModel.add = function(comment) {
-	var comments = this.comments;
-
-	comments.push(comment);
-
-	return Bolt.http.post('/comments', comment).fail(function() {
-
-		// remove the added comment on failure
-		comments.forEach(function(c, i) {
-			if(c.author === comment.author && c.text === comment.text) {
-				comments.splice(i, 1);
-			}
-		});
-	});
-};
-
-// Update the model with data from the server
-commentsModel.fetch = function() {
-	var model = this;
-
-	Bolt.http.get('/comments').done(function(comments) {
-
-		model.comments = comments;
-	});
-};
-
-module.exports = commentsModel;
 
 				})(module, require, module.exports);
 
@@ -18581,8 +17727,6 @@ module.exports = commentsModel;
 					/**
  * Dependencies
  */
-var Bolt = require('../../lib');
-
 var commentsModel = require('../models/comments');
 var commentsView = require('../views/comments');
 
@@ -18597,11 +17741,9 @@ commentsModel.listenTo("comments", function(comments, new_comments, removed_comm
 
 	// remove comments that are no longer part of the model
 	if(removed_comments) {
-		commentsView.list.removeItems(removed_comments, function(a, b) {
-			return a.author === b.author && a.text === b.text;
-		});
-	}
 
+		commentsView.list.removeItems(removed_comments, commentsModel.compare);
+	}
 });
 
 // create comments when the form is submitted
@@ -18609,17 +17751,19 @@ commentsView.form.on("submit", function(comment) {
 
 	// notify the user on failure
 	commentsModel.add(comment).fail(function() {
+
 		alert("Comment failed to save!");
 	});
 });
 
 // poll the server for new comments
 setInterval(function() {
+
 	commentsModel.fetch();
 }, 5000);
 
-// expose the view
-exports.view = commentsView;
+// expose the container view
+exports.view = commentsView.container;
 
 				})(module, require, module.exports);
 

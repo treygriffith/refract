@@ -16,9 +16,7 @@ commentsModel.listenTo("comments", function(comments, new_comments, removed_comm
 	// remove comments that are no longer part of the model
 	if(removed_comments) {
 
-		commentsView.list.removeItems(removed_comments, function(a, b) {
-			return a.author === b.author && a.text === b.text;
-		});
+		commentsView.list.removeItems(removed_comments, commentsModel.compare);
 	}
 });
 
