@@ -2,8 +2,7 @@
  * Dependencies
  */
 var markdown = require('markdown-js').markdown;
-var Bolt = require('../../lib');
-var View = Bolt.View;
+var View = require('../../').View;
 
 // alias exports
 var view = exports;
@@ -43,10 +42,10 @@ view.list = view.container.push(new View.List([], View.List.Item.extend(function
 // Submission Form
 view.form = view.container.push(new View.Form());
 
-var authorInput = view.form.addTextInput("author")
+var authorInput	= view.form.addTextInput("author")
 					.defineAttr("placeholder", "Your Name");
 
-var textInput = view.form.addTextInput("text")
+var textInput	= view.form.addTextInput("text")
 					.defineAttr("placeholder", "Say something...");
 
 view.form.addSubmit("Add");
