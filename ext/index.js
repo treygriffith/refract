@@ -1,1 +1,0 @@
-exports.REST = require('./REST');
