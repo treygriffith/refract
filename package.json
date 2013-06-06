@@ -2,7 +2,10 @@
 	"name": "Bolt",
 	"version": "0.0.1",
 	"dependencies": {
-		"jquery-joules": "*"
+		"dombinding-jquery": "*"
+	},
+	"devDependencies": {
+		"jmocha": "*"
 	},
 	"main": "./index.js"
 }

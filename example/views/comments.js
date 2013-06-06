@@ -15,7 +15,7 @@ view.container.push(new View.Text.Header("Comments"));
 
 // List to hold our comments
 // List item is customized for comments that displays the comment body as markdown
-view.list = view.container.push(new View.List([], View.List.Item.extend(function(comment) {
+view.list = view.container.push(new View.List([], View.List.Item.partial(undefined).extend(function(comment) {
 
 	var authorView = this.push(new View.Text.Header(comment.author, 2));
 	var textView = this.push(new View(markdown(comment.text)));
@@ -48,7 +48,7 @@ var authorInput	= view.form.addTextInput("author")
 var textInput	= view.form.addTextInput("text")
 					.defineAttr("placeholder", "Say something...");
 
-view.form.addSubmit("Add");
+view.form.addSubmit(undefined, "Add");
 
 // Clear form on submission
 view.form.on("submit", function() {

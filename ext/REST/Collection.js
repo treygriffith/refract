@@ -1,4 +1,5 @@
 var Collection = require('../../lib/Collection');
+var RESTModel = require('./Model');
 var http = require('./http');
 
 var RESTCollection = Collection.extend(function(name, models, compare, url) {
@@ -20,11 +21,28 @@ var RESTCollection = Collection.extend(function(name, models, compare, url) {
 		compare = undefined;
 	}
 
-	Collection.call(this, name, models, compare);
-
 	this.idName = 'id';
 
 	this.url = url || '/'+name;
+
+	this.Model = RESTModel;
+
+	this.on('add',function (models) {
+
+		var collection = this;
+
+		models.forEach(function(model) {
+			model.collection = collection;
+		});
+	});
+
+	// delete items from the collection if the models emit a destroy
+	this.on('destroy', function(elem) {
+
+		this.splice(this.indexOf(elem, 1));
+	});
+
+	this.replace(models);
 
 	return this;
 });
@@ -57,11 +75,13 @@ RESTCollection.prototype.create = function(elem) {
 	// push it onto the collection
 	collection.push(elem);
 
+	this.emit('create', elem);
+
 	// return the xhr promise
 	return http.post(collection.endpoint(), elem).fail(function() {
 
 		// remove the item if the post fails
-		collection.splice(collection.indexOf(item, 1));
+		this.emit('destroy', elem);
 
 	});
 };
@@ -73,18 +93,10 @@ RESTCollection.prototype.show = function(elem) {
 	var i = this.indexOf(elem);
 
 	if(~i) {
-		// return the xhr promise
-		return http.get(collection.endpoint(elem)).done(function(data) {
-
-			// update the item when the new data comes in
-			for(var p in data) {
-				if(data.hasOwnProperty(p)) {
-
-					elem[p] = data[p];
-				}
-			}
-		});
+		return elem.show.apply(elem, [].slice.call(arguments, 1));
 	}
+
+	return false;
 };
 
 RESTCollection.prototype.update = function(elem, changes) {
@@ -93,15 +105,10 @@ RESTCollection.prototype.update = function(elem, changes) {
 
 	if(~i) {
 
-		for(var p in changes) {
-			if(changes.hasOwnProperty(p)) {
-
-				elem[p] = changes[p];
-			}
-		}
-
-		return http.post(this.endpoint(elem), changes);
+		return elem.update.apply(elem, [].slice.call(arguments, 1));
 	}
+
+	return false;
 };
 
 RESTCollection.prototype.destroy = function(elem) {
@@ -110,10 +117,10 @@ RESTCollection.prototype.destroy = function(elem) {
 
 	if(~i) {
 
-		this.splice(i, 1);
-
-		return http.delete(this.endpoint(elem));
+		return elem.destroy.apply(elem, [].slice.call(arguments, 1));
 	}
+
+	return false;
 };
 
 module.exports = RESTCollection;
