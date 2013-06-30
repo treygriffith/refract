@@ -2,7 +2,7 @@
 	"name": "boltjs",
 	"version": "0.0.1",
 	"dependencies": {
-		"dombinding-jquery": "*"
+		"dombinding-jquery": "0.0.3"
 	},
 	"devDependencies": {
 		"jmocha": "*"

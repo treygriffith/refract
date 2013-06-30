@@ -124,6 +124,13 @@ describe("Element Construction", function() {
 
 	it("updates values of inputs automatically", function() {
 
+		var form = new Form();
+
+		var text = form.addTextInput("name");
+
+		var checkbox = form.addCheckbox("golf");
+
+		checkbox.value
 	});
 
 	it("updates values of textareas automatically", function() {
