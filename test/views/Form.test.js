@@ -128,7 +128,7 @@ describe("Element Construction", function() {
 
 		var text = form.addTextInput("name");
 
-		var checkbox = form.addCheckbox("golf");
+		var checkbox = form.addCheckboxes("golf", );
 
 		checkbox.value
 	});
