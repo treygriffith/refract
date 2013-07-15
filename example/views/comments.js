@@ -42,11 +42,9 @@ view.list = view.container.push(new View.List([], View.List.Item.partial(undefin
 // Submission Form
 view.form = view.container.push(new View.Form());
 
-var authorInput	= view.form.addTextInput("author")
-					.defineAttr("placeholder", "Your Name");
+var authorInput = view.form.addTextInput("author").defineAttr("placeholder", "Your Name");
 
-var textInput	= view.form.addTextInput("text")
-					.defineAttr("placeholder", "Say something...");
+var textInput = view.form.addTextInput("text").defineAttr("placeholder", "Say something...");
 
 view.form.addSubmit(undefined, "Add");
 
