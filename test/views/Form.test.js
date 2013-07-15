@@ -9,14 +9,42 @@ describe("Event Capturing", function() {
 
 		form.addTextInput('name', 'Bob');
 		form.addTextBox('text', 'paragraph');
+		form.addRadioButtons('choice', [
+			{
+				label: 'Red',
+				value: 'r'
+			},
+			{
+				label: 'Green',
+				value: 'g'
+			},
+			{
+				label: 'Blue',
+				value: 'b'
+			}
+		], 'g');
+
+		form.addCheckboxes('moreThanOne', [
+			{
+				label: 'One',
+				value: 1
+			},
+			{
+				label: 'Two',
+				value: 2
+			}
+		], [1, 2]);
+
 		form.addSubmit(undefined, 'Submit');
 
 		form.on('submit', function(data) {
 
 			assert.strictEqual(data.name, 'Bob');
 			assert.strictEqual(data.text, 'paragraph');
+			assert.strictEqual(data.choice, 'g');
+			assert.sameMembers(data.moreThanOne, [1, 2]);
 
-			assert.sameMembers(['name', 'text'], Object.keys(data));
+			assert.sameMembers(['name', 'text', 'choice', 'moreThanOne'], Object.keys(data));
 
 			done();
 		});
@@ -122,7 +150,7 @@ describe("Event Capturing", function() {
 
 describe("Element Construction", function() {
 
-	it("updates values of inputs automatically", function() {
+	it("updates values of inputs automatically", function(done) {
 
 		var form = new Form();
 
@@ -142,7 +170,19 @@ describe("Element Construction", function() {
 		checkbox.value = '18';
 		text.value = 'Albert';
 
+		setTimeout(function() {
 
+			var checkboxes = form.view.find('input[type="checkbox"]:checked');
+
+			assert.strictEqual(checkboxes.length, 1);
+			assert.strictEqual(checkboxes[0].getFormValue(), '18');
+
+			var input = form.view.find('input[type="text"]')[0];
+
+			assert.strictEqual(input.getFormValue(), 'Albert');
+
+			done();
+		});
 	});
 
 	it("updates values of textareas automatically", function() {

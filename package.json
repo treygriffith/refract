@@ -5,7 +5,7 @@
 		"dombinding-jquery": "0.0.3"
 	},
 	"devDependencies": {
-		"jmocha": "*"
+		"jmocha": "0.0.3"
 	},
 	"main": "./index.js"
 }
