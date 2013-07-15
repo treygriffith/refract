@@ -139,7 +139,10 @@ describe("Element Construction", function() {
 			}
 		]);
 
-		checkbox.value
+		checkbox.value = '18';
+		text.value = 'Albert';
+
+
 	});
 
 	it("updates values of textareas automatically", function() {
