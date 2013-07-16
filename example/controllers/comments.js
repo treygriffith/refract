@@ -8,11 +8,13 @@ var commentsView = require('../views/comments');
 
 // add new Items to the view when new comments are added to the model
 commentsModel.on('add', function(new_comments) {
-	commentsView.list.addItems(new_comments);
+
+	commentsView.list.push.apply(commentsView.list, new_comments);
 });
 
 // remove comments that are no longer part of the model
 commentsModel.on('remove', function(removed_comments) {
+
 	commentsView.list.removeItems(removed_comments, commentsModel.compare);
 });
 
