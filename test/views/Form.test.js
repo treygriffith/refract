@@ -44,8 +44,6 @@ describe("Event Capturing", function() {
 			assert.strictEqual(data.choice, 'g');
 			assert.sameMembers(data.moreThanOne, [1, 2]);
 
-			console.log(data);
-
 			assert.sameMembers(['name', 'text', 'choice', 'moreThanOne'], Object.keys(data));
 
 			done();
@@ -79,8 +77,8 @@ describe("Event Capturing", function() {
 		// artificially trigger a change event
 		setTimeout(function() {
 
-			text.view.setFormValue(name);
-			text.view.emit('change');
+			text.input.view.setFormValue(name);
+			text.input.view.emit('change');
 
 		}, 100);
 	});
@@ -110,8 +108,8 @@ describe("Event Capturing", function() {
 		// artificially trigger a change event
 		setTimeout(function() {
 
-			nameInput.view.setFormValue(name);
-			nameInput.view.emit('change');
+			nameInput.input.view.setFormValue(name);
+			nameInput.input.view.emit('change');
 
 		}, 100);
 	});
@@ -142,8 +140,8 @@ describe("Event Capturing", function() {
 		// artificially trigger a change event
 		setTimeout(function() {
 
-			text.view.setFormValue(name);
-			text.view.emit('change');
+			text.input.view.setFormValue(name);
+			text.input.view.emit('change');
 
 		}, 100);
 
@@ -154,7 +152,7 @@ describe("Element Construction", function() {
 
 	it("updates values of inputs automatically", function(done) {
 
-		var form = new Form();
+		var form = View.Body.push(new Form());
 
 		var text = form.addTextInput("name");
 
@@ -169,7 +167,7 @@ describe("Element Construction", function() {
 			}
 		]);
 
-		checkbox.value = '18';
+		checkbox.value = ['18'];
 		text.value = 'Albert';
 
 		setTimeout(function() {
@@ -185,6 +183,10 @@ describe("Element Construction", function() {
 
 			done();
 		});
+	});
+
+	it("updates values of radio buttons automatically", function() {
+
 	});
 
 	it("updates values of textareas automatically", function() {
