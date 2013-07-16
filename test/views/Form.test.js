@@ -182,18 +182,84 @@ describe("Element Construction", function() {
 			assert.strictEqual(input.getFormValue(), 'Albert');
 
 			done();
-		});
+		}, 100);
 	});
 
-	it("updates values of radio buttons automatically", function() {
+	it("updates values of radio buttons automatically", function(done) {
+
+		var form = View.Body.push(new Form());
+
+		var buttons = form.addRadioButtons("golf", [
+			{
+				label: "18 hole",
+				value: '18'
+			},
+			{
+				label: 'Scramble',
+				value: 'scramble'
+			}
+		]);
+
+		buttons.value = 'scramble';
+
+		setTimeout(function() {
+
+			var buttons = form.view.find('input[type="radio"]:checked');
+
+			assert.strictEqual(buttons.length, 1);
+			assert.strictEqual(buttons[0].getFormValue(), 'scramble');
+
+			done();
+		}, 100);
+	});
+
+	it("updates values of textareas automatically", function(done) {
+
+		var form = View.Body.push(new Form());
+
+		var longForm = "There is long form text in here.";
+
+		var text = form.addTextBox("someText", "Type some stuff in here");
+
+		text.value = longForm;
+
+		setTimeout(function() {
+
+			var textarea = form.view.find('textarea')[0];
+
+			assert.strictEqual(textarea.getFormValue(), longForm);
+
+			done();
+		}, 100);
 
 	});
 
-	it("updates values of textareas automatically", function() {
+	it("updates values of selects automatically", function(done) {
 
+		var form = View.Body.push(new Form());
+
+		var select = form.addSelect("golf", "Golf", [
+			{
+				name: "18 hole",
+				value: '18'
+			},
+			"Scramble"
+		]);
+
+		select.value = 'Scramble';
+
+		setTimeout(function() {
+
+			var options = form.view.find('select')[0].find('option:selected');
+
+			assert.strictEqual(options.length, 1);
+			assert.strictEqual(options[0].getFormValue(), 'Scramble');
+
+			done();
+		}, 100);
 	});
 
-	it("updates values of selects automatically", function() {
+	it("updates the values of multiple selects automatically", function() {
 
 	});
 });
