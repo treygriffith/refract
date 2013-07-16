@@ -259,7 +259,28 @@ describe("Element Construction", function() {
 		}, 100);
 	});
 
-	it("updates the values of multiple selects automatically", function() {
+	it("updates the values of multiple selects automatically", function(done) {
 
+		var form = View.Body.push(new Form());
+
+		var select = form.addSelectMultiple("golf", "Golf", [
+			{
+				name: "18 hole",
+				value: '18'
+			},
+			"Scramble"
+		]);
+
+		select.value = ['Scramble', '18'];
+
+		setTimeout(function() {
+
+			var options = form.view.find('select')[0].find('option:selected');
+
+			assert.strictEqual(options.length, 2);
+			assert.sameMembers([options[0].getFormValue(), options[1].getFormValue()], ['Scramble', '18']);
+
+			done();
+		}, 100);
 	});
 });
