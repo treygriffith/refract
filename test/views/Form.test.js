@@ -7,7 +7,7 @@ describe("Event Capturing", function() {
 
 		var form = new Form();
 
-		form.addTextInput('name', 'Bob');
+		form.addTextInput('name', 'Name', 'Bob');
 		form.addTextBox('text', 'paragraph');
 		form.addRadioButtons('choice', [
 			{
