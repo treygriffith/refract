@@ -186,4 +186,60 @@ describe("Events API", function() {
 
 		cont.emit(evt, myData);
 	});
+
+	it("repeats events of other controllers", function(done) {
+
+		var evt = 'varf';
+
+		var myData = {
+			a: "a"
+		};
+
+		var newCont = new Controller();
+
+		cont.repeat(newCont, evt);
+
+		cont.on(evt, function(data) {
+
+			assert.strictEqual(myData, data);
+
+			// `this` should be in the context of the controller to which the handler was applied
+			assert.strictEqual(this, cont);
+
+			done();
+		});
+
+		newCont.emit(evt, myData);
+	});
+
+	it("stops repeating other controllers' events", function(done) {
+
+		var evt = 'jarf';
+		var evt2 = 'scarf';
+
+		var myData = {
+			a: "a"
+		};
+
+		var newCont = new Controller();
+
+		cont.repeat(newCont, evt);
+
+		cont.on(evt, function(data) {
+
+			assert.fail('reached handler', 'does not reach handler');
+
+		});
+
+		cont.on(evt2, function(data) {
+
+			done();
+		});
+
+		cont.stopRepeating(newCont, evt);
+
+		newCont.emit(evt, myData);
+		cont.emit(evt2);
+
+	});
 });

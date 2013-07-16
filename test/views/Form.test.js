@@ -8,7 +8,7 @@ describe("Event Capturing", function() {
 		var form = new Form();
 
 		form.addTextInput('name', 'Name', 'Bob');
-		form.addTextBox('text', 'paragraph');
+		form.addTextBox('text', 'Text', 'paragraph');
 		form.addRadioButtons('choice', [
 			{
 				label: 'Red',
@@ -43,6 +43,8 @@ describe("Event Capturing", function() {
 			assert.strictEqual(data.text, 'paragraph');
 			assert.strictEqual(data.choice, 'g');
 			assert.sameMembers(data.moreThanOne, [1, 2]);
+
+			console.log(data);
 
 			assert.sameMembers(['name', 'text', 'choice', 'moreThanOne'], Object.keys(data));
 

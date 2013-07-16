@@ -505,6 +505,88 @@ describe("Array Listening", function() {
 	});
 });
 
+describe("Model Binding", function() {
+
+	it("updates a single property of the bound model", function() {
+
+		var myModel = new Model({
+			name: 'Bob',
+			occupation: 'Student'
+		});
+
+		var boundModel = new Model();
+
+		myModel.bind(boundModel, 'name');
+
+		assert.strictEqual(boundModel.name, myModel.name);
+		assert.strictEqual(boundModel.name, 'Bob');
+
+		myModel.name = 'George';
+
+		assert.strictEqual(boundModel.name, myModel.name);
+		assert.strictEqual(boundModel.name, 'George');
+	});
+
+	it("updates an array of properties on the bound model", function() {
+
+		var myModel = new Model({
+			name: 'Bob',
+			occupation: 'Student'
+		});
+
+		var boundModel = new Model();
+
+		myModel.bind(boundModel, ['name', 'occupation']);
+
+		assert.strictEqual(boundModel.name, myModel.name);
+		assert.strictEqual(boundModel.name, 'Bob');
+		assert.strictEqual(boundModel.occupation, myModel.occupation);
+		assert.strictEqual(boundModel.occupation, 'Student');
+
+		myModel.name = 'George';
+		myModel.occupation = 'Machinist';
+
+		assert.strictEqual(boundModel.name, myModel.name);
+		assert.strictEqual(boundModel.name, 'George');
+		assert.strictEqual(boundModel.occupation, myModel.occupation);
+		assert.strictEqual(boundModel.occupation, 'Machinist');
+	});
+
+	it("updates a property map on the bound model", function() {
+
+		var myModel = new Model({
+			name: 'Bob',
+			occupation: 'Student'
+		});
+
+		var boundModel = new Model();
+
+		myModel.bind(boundModel, {
+			name: 'firstName',
+			occupation: 'job'
+		});
+
+		assert.strictEqual(boundModel.firstName, myModel.name);
+		assert.strictEqual(boundModel.firstName, 'Bob');
+		assert.strictEqual(boundModel.job, myModel.occupation);
+		assert.strictEqual(boundModel.job, 'Student');
+
+		myModel.name = 'George';
+		myModel.occupation = 'Machinist';
+
+		assert.strictEqual(boundModel.firstName, myModel.name);
+		assert.strictEqual(boundModel.firstName, 'George');
+		assert.strictEqual(boundModel.job, myModel.occupation);
+		assert.strictEqual(boundModel.job, 'Machinist');
+	});
+
+	/* Awaiting implementation
+	it("stops updating a bound model when unbound", function() {
+
+	})
+	*/
+});
+
 describe("Model Housekeeping", function() {
 
 	it("is removed from the global list when manually destroyed", function() {
