@@ -1,7 +1,7 @@
 /**
  * Dependencies
  */
-var BoltREST = require('boltjs-rest');
+var BoltREST = require('bolt-rest');
 
 // Create the comments model
 var comments = new BoltREST.Collection('comments', function(a, b) {

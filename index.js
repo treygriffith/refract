@@ -1,4 +1,1 @@
-var Bolt = require('./lib');
-Bolt.extensions = require('./ext');
-
-module.exports = Bolt;
+module.exports = require('./lib');

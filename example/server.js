@@ -8,11 +8,11 @@ app.use(express.bodyParser());
 
 // expose everything to the client
 app.use(express.static(__dirname + '/..'));
-joules.hint(__dirname + '/..', function(err) {
+/*joules.hint(__dirname + '/..', function(err) {
 	if(err) {
 		throw err;
 	}
-});
+});*/
 
 // display our index file for the root
 app.get('/', function(req, res) {
@@ -28,8 +28,8 @@ app.get('/', function(req, res) {
 
 // Application
 var comments = [
-	{ author: '@tgriff3 (Trey Griffith)', text: 'This is one comment' },
-	{ author: 'BoltJS', text: 'This is *another* comment' }
+	{ author: '@tgriff3 (Trey Griffith)', body: 'This is one comment' },
+	{ author: 'BoltJS', body: 'This is *another* comment' }
 ];
 
 // Display all comments
@@ -41,11 +41,11 @@ app.get('/comments', function(req, res) {
 // Create a new comment
 app.post('/comments', function(req, res) {
 
-	if(req.body.author && req.body.text) {
+	if(req.body.author && req.body.body) {
 
 		var comment = {
 			author: req.body.author,
-			text: req.body.text
+			body: req.body.body
 		};
 
 		comments.push(comment);

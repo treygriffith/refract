@@ -10,6 +10,8 @@ var view = exports;
 // Create a container view
 view.container = new View();
 
+view.container.style.fontFamily = 'Helvetica';
+
 // Add a header to the comments
 view.container.push(new View.Text.Header("Comments"));
 
@@ -34,14 +36,20 @@ view.list = view.container.push(new View.List([], View.List.Item.partial(undefin
 	return this;
 })));
 
+
 // Submission Form
 view.form = view.container.push(new View.Form());
 
-var authorInput = view.form.addTextInput("author", "Your Name").defineAttr("placeholder", "John Doe");
+var authorInput = view.form.addTextInput("author", "Your Name");
+authorInput.placeholder = "John Doe";
+authorInput.style.display = authorInput.labelView.style.display = 'block';
 
-var textInput = view.form.addTextInput("text", "Comment").defineAttr("placeholder", "Say something...");
+var textInput = view.form.addTextBox("body", "Comment");
+textInput.placeholder = "Say something...";
+textInput.style.display = textInput.labelView.style.display = 'block';
 
-view.form.addSubmit(undefined, "Add");
+view.form.addSubmit("Add");
+
 
 // Clear form on submission
 view.form.on("submit", function() {
