@@ -29,7 +29,7 @@ app.get('/', function(req, res) {
 // Application
 var comments = [
 	{ author: '@tgriff3 (Trey Griffith)', body: 'This is one comment' },
-	{ author: 'BoltJS', body: 'This is *another* comment' }
+	{ author: 'Refract', body: 'This is *another* comment' }
 ];
 
 // Display all comments

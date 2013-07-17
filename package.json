@@ -1,5 +1,5 @@
 {
-	"name": "boltjs",
+	"name": "refract",
 	"version": "0.0.1",
 	"dependencies": {
 		"dombinding-jquery": "0.0.3"

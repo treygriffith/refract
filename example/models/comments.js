@@ -1,10 +1,10 @@
 /**
  * Dependencies
  */
-var BoltREST = require('bolt-rest');
+var REST = require('refract-rest');
 
 // Create the comments model
-var comments = new BoltREST.Collection('comments', function(a, b) {
+var comments = new REST.Collection('comments', function(a, b) {
 	return a.author === b.author && a.text === b.text;
 });
 
