@@ -1,8 +1,10 @@
 {
-	"name": "bolt-example",
+	"name": "refract-example",
 	"version": "0.0.1",
 	"dependencies": {
-		"joules": "*",
-		"express": "3.x"
+		"joules": "0.1.12",
+		"express": "3.x",
+		"refract-rest": "*",
+		"markdown-js": "0.0.3"
 	}
 }
