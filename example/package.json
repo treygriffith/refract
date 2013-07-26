@@ -2,7 +2,7 @@
 	"name": "refract-example",
 	"version": "0.0.1",
 	"dependencies": {
-		"joules": "0.1.12",
+		"joules": "0.2.0",
 		"express": "3.x",
 		"refract-rest": "*",
 		"markdown-js": "0.0.3"

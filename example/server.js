@@ -8,11 +8,16 @@ app.use(express.bodyParser());
 
 // expose everything to the client
 app.use(express.static(__dirname + '/..'));
-/*joules.hint(__dirname + '/..', function(err) {
+joules.hint(__dirname + '/..', function(err) {
 	if(err) {
 		throw err;
 	}
-});*/
+}, function(filename) {
+	if(filename.split('/').shift() === 'node_modules') {
+		return false;
+	}
+	return true;
+});
 
 // display our index file for the root
 app.get('/', function(req, res) {
