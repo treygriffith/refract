@@ -587,6 +587,11 @@ describe("Model Binding", function() {
 	*/
 });
 
+describe("Traps", function() {
+
+
+});
+
 describe("Model Housekeeping", function() {
 
 	it("is removed from the global list when manually destroyed", function() {

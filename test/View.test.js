@@ -75,11 +75,13 @@ describe("Attribute Manipulation", function() {
 
 		var div = new View();
 
-		div.defineAttr("data-arb", "arb");
+		div.defineAttr("arb", "arb");
 
-		div['data-arb'] = 'arbor day';
+		div['arb'] = 'arbor day';
 
-		assert.strictEqual(div.view.getDOM().attributes['data-arb'].value, 'arbor day');
+		div.view.$.prop('arb', 'arbor day');
+
+		assert.strictEqual(div.view.getDOM().getAttribute('arb'), 'arbor day');
 	});
 });
 
@@ -177,6 +179,10 @@ describe("Manipulating Views", function() {
 		assert.isTrue(h1.view.inDOM());
 	});
 
+	it("removes all views", function() {
+
+	});
+
 	it("replaces views", function() {
 
 		var div = new View();
@@ -193,6 +199,10 @@ describe("Manipulating Views", function() {
 		assert.isTrue(span.view.inDOM());
 		assert.isTrue(h1.view.inDOM());
 		assert.isFalse(p.view.inDOM());
-	})
+	});
+
+	it("replaces all views", function() {
+
+	});
 
 });

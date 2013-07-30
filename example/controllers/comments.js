@@ -7,6 +7,13 @@ var view = require('../views/comments');
 // bind changes in the model to the view
 
 // add new Items to the view when new comments are added to the model
+comments.bind(view.list, {
+	_comments: 'views'
+});
+
+window.list = view.list;
+
+/*
 comments.on('add', function(new_comments) {
 
 	view.list.push.apply(view.list, new_comments);
@@ -16,7 +23,7 @@ comments.on('add', function(new_comments) {
 comments.on('remove', function(removed_comments) {
 
 	view.list.removeItems(removed_comments, comments.compare);
-});
+});*/
 
 // initialize the collection
 comments.index();
