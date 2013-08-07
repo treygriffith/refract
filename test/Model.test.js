@@ -620,6 +620,37 @@ describe("Model Binding", function() {
 		assert.strictEqual(boundModel.job, 'Machinist');
 	});
 
+	it("updates only relevant properties on bound model", function() {
+
+		var myModel = new Model({
+			name: {
+				first: 'Bob',
+				last: 'Loblaw'
+			},
+			occupation: 'Student'
+		});
+
+		var boundModel = new Model();
+
+		myModel.bind(boundModel, {
+			name: 'name',
+			occupation: 'job'
+		});
+
+		assert.strictEqual(boundModel.name.first, myModel.name.first);
+		assert.strictEqual(boundModel.name.first, 'Bob');
+		assert.strictEqual(boundModel.job, myModel.occupation);
+		assert.strictEqual(boundModel.job, 'Student');
+
+		myModel.name.last = 'Kennedy';
+		myModel.occupation = 'Machinist';
+
+		assert.strictEqual(boundModel.name.last, myModel.name.last);
+		assert.strictEqual(boundModel.name.last, 'Kennedy');
+		assert.strictEqual(boundModel.job, myModel.occupation);
+		assert.strictEqual(boundModel.job, 'Machinist');
+	});
+
 	/* Awaiting implementation
 	it("stops updating a bound model when unbound", function() {
 
