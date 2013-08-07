@@ -71,6 +71,18 @@ describe("Attribute Manipulation", function() {
 		assert.strictEqual(div.view.getDOM().childNodes[0].nodeValue, 'hello');
 	});
 
+	it("updates text node when it is changed twice prior to being rendered", function() {
+
+		var div = new View();
+
+		div.defineText();
+
+		div.text = "hello";
+		div.text = "goodbye";
+
+		assert.strictEqual(div.view.getDOM().childNodes[0].nodeValue, 'goodbye');
+	});
+
 	it("updates arbitrary attributes when listened to", function() {
 
 		var div = new View();

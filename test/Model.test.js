@@ -251,6 +251,46 @@ describe("Object Property Listening", function() {
 		myModel.pets.dog = kitty;
 	});
 
+	it("triggers when the object is changed to a primitive", function(done) {
+
+		var kitty = "kitty";
+		var doggy = "doggy";
+
+		var myModel = new Model({
+			pets: {
+				cat: kitty,
+				dog: doggy
+			}
+		});
+
+		var i = 0;
+
+		myModel.listenTo('pets', function(pets) {
+
+			// the first call will be with a value of 'doggy', it's initial value
+			if(i > 0) {
+
+				assert.strictEqual(this, myModel);
+				assert.strictEqual(pets, myModel.pets);
+
+				assert.strictEqual(pets, kitty);
+
+				done();
+			} else {
+
+				assert.strictEqual(this, myModel);
+				assert.strictEqual(pets, myModel.pets);
+
+				assert.strictEqual(pets.dog, doggy);
+			}
+
+			i++;
+		});
+
+		myModel.pets = kitty;
+
+	});
+
 	it("doesn't trigger when changes to sub-objects leave the object substantially the same", function(done) {
 
 		var kitty = "kitty";

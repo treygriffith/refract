@@ -2,7 +2,7 @@
 	"name": "refract",
 	"version": "0.0.1",
 	"dependencies": {
-		"dombinding-jquery": "0.0.4"
+		"dombinding-jquery": "0.0.5"
 	},
 	"devDependencies": {
 		"jmocha": "0.0.3"
